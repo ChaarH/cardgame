@@ -1,0 +1,96 @@
+body {
+	font-family: 'Press Start 2P', cursive;
+	margin: 0;
+}
+
+.bloco-geral {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bloco-card {
+	width: 200px;
+	height: 250px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 3px;
+	background: #000;
+}
+
+
+.bloco-card-interno {
+	width: 194px;
+	height: 244px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin: 2px 2px;
+	background: #fff;
+}
+
+.title-card {
+	text-align: center;
+	font-size: 9px;
+	padding: 5px;
+}
+
+.card-img {
+	width: 180px;
+	height: 130px;
+	border: 1px solid #000;
+	margin-left: 5px;
+}
+
+.card-img img {
+	width: 180px;
+	height: 130px;
+}
+
+.desc-card  {
+	width: 180px;
+	height: 80px;
+	display: flex;
+	margin: 5px 0 0  5px;
+}
+
+.value-left {
+	width: 90px;
+	height: 80px;
+	border: 1px solid #000;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-size: 20px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.value-right {
+	width: 90px;
+	height: 80px;
+	border: 1px solid #000;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 20px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.desc-card img {
+	width: 40px;
+	padding-top: 15px;
+}
+
+.marcador {
+	width: 17px;
+	height: 17px;
+	border: 1px solid #000;
+	padding: 2px;
+	border-radius: 50%;
+}
+
+.marcador-interno {
+	width: 15px;
+	height: 15px;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 50%;
+}
